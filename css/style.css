@@ -369,7 +369,17 @@ body {
 
 }
 
+
+
 /* ------------- */
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
 
 .site-header {
     background-color: pink;
@@ -430,8 +440,30 @@ body {
 }
 
 
-.site-footer {
+
+/* FOOTER */
+.site-footer-home {
     background-color: aqua;
+}
+
+/* FOOTER NAV */
+.footer-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav a {
+    display: flex;
+    gap: .5em;
+    padding: 1em;
+    color: rgba(0, 0, 0, .5);
+    font-family: "neue haas grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /* FOR DEMO  */
