@@ -151,10 +151,8 @@ h3 {
 p {
     /* LIMIT THE WIDTH OF ALL PARAGRAPHS */
     max-width: 65ch;
-    font
     /* NEW SCHOOL WIDOW SLAYER */
     text-wrap: pretty;
-
 }
 
 /* GLOBAL MEDIA */
