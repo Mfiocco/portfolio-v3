@@ -792,6 +792,14 @@ body {
     margin: 8em;
 }
 
+@media (max-width: 768px) {
+    .words {
+        border: .5px solid rgb(255, 255, 255);
+        margin: 2em;
+        padding: 2em;
+    }
+}
+
 .about-intro {
     color: #ffffff;
     font-family: "Neue-haas-grotesk-text", sans-serif;
@@ -826,6 +834,32 @@ body {
 }
 
 /* -------ANIMATIONS------ */
+
+.ripple>* {
+    display: inline-block;
+    text-shadow: 0 0 0 #545454;
+    color: transparent;
+    animation: rippleEffect 10s infinite;
+}
+
+.ripple:hover>* {}
+
+@keyframes rippleEffect {
+    40% {
+        opacity: .05;
+    }
+
+    50% {
+        transform: translate3d(1em, 0, 0) scale(1);
+        text-shadow: 0 0 5px #a4a4a4;
+    }
+
+    75% {
+        transform: translate3d(0, 0, 0) scale(1);
+        text-shadow: 0 0 0 #585858;
+        opacity: 1;
+    }
+}
 
 
 .reveal {
@@ -1277,4 +1311,53 @@ body {
     display: grid;
     place-items: center;
     padding: 1em 0 1em 0;
+}
+
+
+/* -------SPLASH SCREEN------ */
+
+/* SPLASH SCREEN */
+.splash-screen {
+    width: 100%;
+    height: 100%;
+}
+
+.splash-screen video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.splash-screen .svg-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.splash-screen svg {
+    box-shadow: 0 0 0 9999vh white;
+    width: 100%;
+    scale: .5;
+    animation: zoom-into-letter 5s ease-in 2s forwards;
+}
+
+.splash-screen svg rect {
+    fill: white;
+}
+
+.splash-screen svg>rect {
+    -webkit-mask: url(#mask);
+    mask: url(#mask);
+}
+
+
+@keyframes zoom-into-letter {
+    100% {
+        scale: 30;
+    }
 }
