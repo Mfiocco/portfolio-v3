@@ -1244,16 +1244,12 @@ body {
     padding: 3em 0 6em 0;
     display: grid;
     place-items: center;
-
 }
 
-.final-logo {
-    margin: 0;
-    padding: 3em 0 6em 0;
-    display: grid;
-    place-items: center;
-
+.rounded-img {
+    border-radius: 1.5em;
 }
+
 
 .centered-img {
     display: grid;
