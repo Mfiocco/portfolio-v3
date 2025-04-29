@@ -325,6 +325,14 @@ video {
     padding: 0 0 4em 0;
 }
 
+.extra-top-padding {
+    padding: 4em 0 0 0;
+}
+
+.extra-padding {
+    padding: 4em 0 4em 0;
+}
+
 .extra-side-padding {
     padding: 0 5em 0 5em;
 }
@@ -1246,6 +1254,13 @@ body {
     place-items: center;
 }
 
+.final-logo2 {
+    margin: 0;
+    padding: 3em 0 0 0;
+    display: grid;
+    place-items: center;
+}
+
 .rounded-img {
     border-radius: 1.5em;
 }
@@ -1287,6 +1302,17 @@ body {
 .section-title {
     text-align: left;
     margin-top: 6em;
+    margin-bottom: .5em;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.section-title2 {
+    text-align: left;
+    margin-top: .5em;
     margin-bottom: .5em;
     font-weight: 700;
     font-size: 1.2em;
@@ -1348,6 +1374,12 @@ body {
     font-style: italic;
     font-weight: 600;
     color: #a9133b;
+}
+
+.iteration-title-missingpeace {
+    font-style: italic;
+    font-weight: 600;
+    color: #0f4956;
 }
 
 
