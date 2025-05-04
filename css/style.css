@@ -240,15 +240,26 @@ video {
     border: 1px solid #5e6f67;
     padding: 1em 2em;
     border-radius: 70px;
+    display: inline-block;
+    /* margin: 0 .5em; */
 }
 
-.works-button {
+.button-group {
+    display: flex;
+    gap: .75em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* .works-button {
     display: block;
     border: 1px solid #5e6f67;
     padding: 1em 2em;
     margin-top: 2em;
     border-radius: 70px;
-}
+} */
+
 
 .view-website-button {
     border: 1px solid #5e6f67;
@@ -318,7 +329,7 @@ video {
 }
 
 .medley-vid {
-    padding: 4em;
+    padding: 0 4em 4em 4em;
 }
 
 .extra-bottom-padding {
@@ -689,6 +700,8 @@ body {
     padding-top: 1em;
 }
 
+
+
 .hero h5 {
     font-family: "neue-haas-grotesk", sans-serif;
     font-optical-sizing: auto;
@@ -870,6 +883,27 @@ body {
 
 /* -------ANIMATIONS------ */
 
+.hero .ripple {
+    font-size: 4vw;
+}
+
+.hero:has(.ripple) h5 {
+    font-size: 1.2vw;
+}
+
+@media (max-width: 767px) {
+    .hero .ripple {
+        font-size: clamp(2em, 10vw, 10vw);
+
+    }
+
+    .hero:has(.ripple) h5 {
+        font-size: clamp(.7em, 2vw, 2vw);
+    }
+}
+
+
+
 .ripple>* {
     display: inline-block;
     text-shadow: 0 0 0 #545454;
@@ -994,6 +1028,7 @@ body {
 #work .featured-card {
     border-radius: 2em;
     overflow: hidden;
+    height: 100%;
 }
 
 .featured-card-img {
@@ -1004,6 +1039,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 0;
+    height: 100%;
 
     /* &:hover {
         position: static;
@@ -1013,6 +1049,8 @@ body {
 .featured-card-img img {
     display: block;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     grid-column: 1;
     grid-row: 1;
 }
