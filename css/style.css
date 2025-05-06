@@ -616,9 +616,9 @@ body {
     padding: var(--unit-small);
 }
 
-.splitscreen {
-    /* background-color: yellow; */
-}
+/* .splitscreen {
+    background-color: yellow;
+} */
 
 @media (min-width:768px) {
     .splitscreen {
@@ -627,17 +627,17 @@ body {
     }
 }
 
-.right-side {
-    /* background-color: gold; */
-}
+/* .right-side {
+    background-color: gold;
+} */
 
 .padded-content {
     padding: 2em;
 }
 
-.left-side {
-    /* background-color: lime; */
-}
+/* .left-side {
+    background-color: lime;
+} */
 
 .project-left-side {
     background-color: rgb(255, 249, 249);
@@ -1257,13 +1257,13 @@ body {
     text-wrap: pretty;
 }
 
-.sub-hero-middleblock {
-    /* background-color: yellow; */
-}
+/* .sub-hero-middleblock {
+    background-color: yellow;
+} */
 
 
 .subheader {
-    color: #999;
+    color: #737373;
     font-family: "miller-headline", serif;
     font-style: italic;
     font-weight: 100;
@@ -1273,7 +1273,7 @@ body {
 }
 
 .sub-project-data {
-    color: #a5a5a5;
+    color: #525252;
     font-family: "neue haas grotesk", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -1283,6 +1283,18 @@ body {
     margin: 0;
     align-self: end;
     padding-bottom: 2em;
+}
+
+.peles {
+    color: #ddb400;
+    font-family: "neue haas grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .8em;
+    text-wrap: pretty;
+    margin: 0;
+    align-self: end;
+    padding-bottom: 1em;
 }
 
 .final-logo {
