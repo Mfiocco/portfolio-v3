@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-v3</title>
+    <title>Portfolio</title>
 
     <!-- ADD ADOBE FONTS -->
     <link rel="stylesheet" href="https://use.typekit.net/tzt7eec.css">
@@ -13,170 +13,218 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <div class="splash-screen">
-        <video autoplay playsinline muted loop preload poster="">
-            <source src="img/hero-vid.mp4" />
-
-        </video>
-        <div class="svg-wrapper">
-            <img src="img/logo-mask.svg" alt=" logo mask" width="1200" height="900">
+<body id="top" class="page-home">
+    <header class="site-header animated ssticky" data-navstate="closed">
+        <div class="container">
+            <div class="site-id hidden">
+                <h1>
+                    <a href="index.html">MiCHAEL FiOCCO</a>
+                </h1>
+            </div>
+            <nav class="site-nav">
+                <ul class="nav">
+                    <li class="site-logo">
+                        <a href="index.html"><img src="img/mf_logo.svg" alt="logo" width="70" height="50" /><span
+                                class="hidden">MiCHAEL FiOCCO</span></a>
+                    </li>
+                    <li><a href="work.html">work</a></li>
+                    <li><a href="about.html">about</a></li>
+                </ul>
+            </nav>
+            <div class="top-nav-logo">
+            </div>
         </div>
-    </div>
-    <main>
-        <div class="splitscreen">
-            <div class="left-side">
-                <div class="sticky-panel">
-                    <header class="site-header">
-                        <nav class="site-nav">
-                            <ul class="nav">
-                                <li class="site-logo">
-                                    <a class="fancy-hover" href="index.html"><img src="img/mf_logo.svg" alt="logo"
-                                            width="70" height="50" /><span class="hide-visually">MiCHAEL
-                                            FiOCCO</span></a>
-                                </li>
-                                <li><a class="fancy-hover" href="about.html">about</a></li>
-                                <li><a class="fancy-hover" href="work.html">work</a></li>
-                            </ul>
-                        </nav>
-                    </header>
-                    <section class="hero">
-                        <div>
-                            <h1 class="ripple">the rippling of ideas</h1>
-                        </div>
+    </header>
+    <div class="left-side">
 
-                        <h5>A COLLECTION OF MY WORK</h5>
-                        <div class="button-group">
-                            <a class="button fancy-hover" href="about.html#contact">Let's Connect!</a>
-                            <a class="button fancy-hover" href="work.html">See More Work</a>
-                        </div>
 
-                    </section>
-                    <footer class="site-footer-home">
-                        <nav class="footer-nav">
-                            <ul>
-                                <li><a class="fancy-hover" href="img/mf-resume.pdf" target="_blank"><img
-                                            src="img/pdf-file.png" width="30" height="30" alt="pdf logo">
-                                        Resume</a>
-                                </li>
-                                <li><a class="fancy-hover" href="https://www.linkedin.com/in/michael-fiocco-900531214/"
-                                        target="_blank"><img src="img/linkedin.png" width="30" height="30"
-                                            alt="linked in logo">
-                                        Linkedin</a>
-                                </li>
-                                <li><a class="fancy-hover" href="https://github.com/mfiocco" target="_blank"><img
-                                            src="img/github.png" width="30" height="30" alt="Github logo">
-                                        Github</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </footer>
+        <!-- <header class="site-header toggle-nav animated ssticky" data-navstate="closed">
+            <div class="container">
+                <div class="site-id hidden">
+                    <h1>
+                        <a href="index.html">MiCHAEL FiOCCO</a>
+                    </h1>
                 </div>
+                <nav class="site-nav">
+                    <div class="menu-button navicon">Menu</div>
+                    <ul class="nav">
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="work.html">work</a></li>
+                    </ul>
+                </nav>
+                <div class="top-nav-logo">
+                    <a href="index.html"><img src="img/mf_logo.svg" alt="logo" width="200" height="100" /></a>
+                </div>   
             </div>
-            <div class="right-side">
-                <section>
-                    <div class="featured-card">
-                        <a class="featured-card-img" href="puerto.html"><img class="parallax-onscroll"
-                                data-parallax-speed="1" src="img/tourism_image2.jpg" alt="Puerto Escondido Logo"
-                                width="1000" height="1000" />
-                            <div class="featured-card-text">
-                                <h3 class="card-text">PUERTO ESCONDIDO</h3>
-                                <p>Logo & Identity Design</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured-card">
-                        <a class="featured-card-img" href="missingpeace.html"><img class="parallax-onscroll"
-                                data-parallax-speed="1" src="img/people-puzzling.jpg" alt="Puerto Escondido Logo"
-                                width="1000" height="1000" />
-                            <div class="featured-card-text">
-                                <h3 class="card-text">THE MISSING PEACE</h3>
-                                <p>Brand Identity & Product Packaging</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured-card">
-                        <a class="featured-card-img" href="groov.html"><img class="parallax-onscroll"
-                                data-parallax-speed="1" src="img/pairing-animation.png" alt="Puerto Escondido Logo"
-                                width="1000" height="1000" />
-                            <div class="featured-card-text">
-                                <h3 class="card-text">GROOV DONUTS</h3>
-                                <p>Visual Identity & Web Interface Design</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured-card">
-                        <a class="featured-card-img" href="angelinas.html"><img class="parallax-onscroll"
-                                data-parallax-speed="1" src="img/multi-jars.jpg" alt="Puerto Escondido Logo"
-                                width="1000" height="1000" />
-                            <div class="featured-card-text">
-                                <h3 class="card-text">ANGELINA'S</h3>
-                                <p>Brand Identity & Product Packaging</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- <div class="featured-card">
-                        <a class="featured-card-img" href="medley.html"><img class="parallax-onscroll"
-                                data-parallax-speed="1" src="img/medley-mockup2.png" alt="Puerto Escondido Logo"
-                                width="1000" height="1000" />
-                            <div class="featured-card-text">
-                                <h3 class="card-text">MEDLEY</h3>
-                                <p>Visual Identity & Mobile Interface Design</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured-card">
-                        <a class="featured-card-img" href="angostura.html"><img class="parallax-onscroll"
-                                data-parallax-speed="1" src="img/Banner_mockup.jpg" alt="Puerto Escondido Logo"
-                                width="1000" height="1000" />
-                            <div class="featured-card-text">
-                                <h3 class="card-text">ANGOSTURA BITTERS</h3>
-                                <p>Logo & Identity Design</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured-card">
-                        <a class="featured-card-img" href="k9solutions.html"><img class="parallax-onscroll"
-                                data-parallax-speed="1" src="img/k9-mockup2.jpg" alt="Puerto Escondido Logo"
-                                width="1000" height="1000" />
-                            <div class="featured-card-text">
-                                <h3 class="card-text">K9 SOLUTIONS</h3>
-                                <p>Visual Identity & Web Interface Design</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="featured-card">
-                        <a class="featured-card-img" href="typography.html"><img class="parallax-onscroll"
-                                data-parallax-speed="1" src="img/EamesLayout_mockup.jpg" alt="Puerto Escondido Logo"
-                                width="1000" height="1000" />
-                            <div class="featured-card-text">
-                                <h3 class="card-text">TYPOGRAPHIC EXPLORATION</h3>
-                                <p>Print & Layout Design</p>
-                            </div>
-                        </a>
-                    </div> -->
-                </section>
+        </header> -->
 
+        <section class="hero text-centered">
+            <div class="container">
+
+                <h1>the rippling of ideas</h1>
+                <h5 class="main-hero">A COLLECTION OF MY WORK</h5>
+                <a class="button alt" href="about.html#contact">Let's Connect!</a>
             </div>
+        </section>
+        <!-- <div>
+            <video autoplay muted loop id="myVideo">
+                <source src="img/hero-vid.mp4" type="video/mp4">
+            </video>
+        </div> -->
+    </div>
+    <div class="right-side">
+        <div class="highlighted-projects">
+            <h1>HIGHLIGHTED PROJECTS</h1>
         </div>
-    </main>
+        <!-- <header class="site-header toggle-nav animated ssticky" data-navstate="closed">
+            <nav class="site-nav">
+                <div class="menu-button navicon">Menu</div>
+                <ul class="nav">
+                    <li><a class="scroll" href="#work">work</a></li>
+                </ul>
+            </nav>
+        </header> -->
 
-    <!-- SPLASH SCREEN JS-->
-    <script src="js/spash-screen.js"></script>
+        <section class="parallax-section" id="parallax1">
+            <div class="containerx section-container">
+                <h2><a href="puerto.html">PUERTO ESCONDIDO</a></h2>
+                <h4 class="meta-info">Logo Design</h4>
+            </div>
+        </section>
 
-    <!-- RIPPLE JS -->
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329887/animated_text.js">
-    </script>
+        <section class="parallax-section" id="parallax2">
+            <div class="containerx   section-container">
+                <h2><a href="angostura.html">ANGOSTURA BITTERS</a></h2>
+                <h4 class="meta-info">Logo Design</h4>
+            </div>
+        </section>
 
-    <!-- PARALLAX JS -->
-    <script src="js/parallax.js"></script>
+        <section class="parallax-section" id="parallax3">
+            <div class="containerx   section-container">
+                <h2><a href="angelinas.html">ANGELINA'S</a></h2>
+                <h4 class="meta-info">Identity Design</h4>
+            </div>
+        </section>
 
-    <!-- OBSERVER SCROLL TRIGGERED ANIMATION JS -->
-    <script src="js/observer.js"></script>
+        <section class="parallax-section" id="parallax4">
+            <div class="containerx   section-container">
+                <h2><a href="groov.html">GROOV DONUTS</a></h2>
+                <h4 class="meta-info">Identity & Web Design</h4>
+            </div>
+        </section>
+
+        <section class="parallax-section" id="parallax5">
+            <div class="containerx   section-container">
+                <h2><a href="medley.html">MEDLEY</a></h2>
+                <h4 class="meta-info">Identity & App Design</h4>
+            </div>
+        </section>
+
+        <section class="parallax-section" id="parallax6">
+            <div class="containerx   section-container">
+                <h2><a href="k9-solutions.html">K9 SOLUTIONS</a></h2>
+                <h4 class="meta-info">Web Design</h4>
+            </div>
+        </section>
+
+        <section class="parallax-section" id="parallax7">
+            <div class="containerx   section-container">
+                <h2><a href="typography.html">TYPOGRAPHIC EXPLORATION</a></h2>
+                <h4 class="meta-info">Print & Layout Design</h4>
+            </div>
+        </section>
+
+        <section class="parallax-section" id="parallax8">
+            <div class="containerx   section-container">
+                <h2><a href="missingpeace.html">THE MISSING PEACE</a></h2>
+                <h4 class="meta-info">Identity Design</h4>
+            </div>
+        </section>
+
+        <!-- <section id="work">
+            <div class="container">
+
+                
+                <div class="row">
+                    
+                    <div class="column one-half">
+                        <a href="puerto.html"><img src="img/Tourism_Image.jpg" alt="Puerto Escondido Logo" width="1000" height="1000"/></a>
+                    </div>   
+                    <div class="column one-half">
+                        <a href="angostura.html"><img src="img/Corporate_sticker_mockup.jpg" alt="Angostura Bitters Logo" width="1000" height="1000"/></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column one-third">
+                        <a href="bosp.html"><img src="img/kahue_mockup.jpg" alt="Angostura Bitters Logo" width="1500" height="1500"/></a>
+                    </div>
+                    <div class="column one-third">
+                        <a href="k9solution.html"><img src="img/k9-mockup2.jpg" alt="k9 Solutions Home page" width="1500" height="1500"/></a>
+                    </div>
+                    <div class="column one-third">
+                        <a href="typography.html"><img src="img/EamesLayout_mockup.jpg" alt="Typography layout mockup" width="1500" height="1500"/></a>
+                    </div>   
+                </div>
+                    
+            </div>
+        </section> -->
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <!-- <div class="nma-social-icons nma-social-icon-linkedin">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>LinkedIn</title>
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    </svg>
+                    <div class="nma-social-icons nma-social-icon-github">
+                        <svg role="img" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </div>
+                </div> -->
+
+                <ul>
+                    <li><a href="img/mf-resume.pdf"><img src="img/pdf-file.png" width="30" height="30" alt="pdf logo">
+                            Resume</a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/michael-fiocco-900531214/"><img src="img/linkedin.png"
+                                width="30" height="30" alt="linked in logo">
+                            Linkedin</a>
+                    </li>
+                    <li><a href="https://github.com/mfiocco"><img src="img/github.png" width="30" height="30"
+                                alt="Github logo">
+                            Github</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!-- <footer class="site-footer">
+        <div class="container">
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html"><img src="img/mf_logo.svg" alt="logo" width="50" height="50"/></a></li>
+                    <li><a href="index.html#work" class="selected">work</a></li>
+                    <li><a href="about.html">about</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer> -->
 
     <!-- SCROLL JS -->
     <script src="js/scroll.js"></script>
 
     <!-- MAIN JS -->
     <script src="js/script.js"></script>
+
+    <!-- PARALLAX JS -->
+    <!-- <script src="js/parallax.js"></script> -->
+
 </body>
+
+</html>
